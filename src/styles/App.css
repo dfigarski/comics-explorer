@@ -103,3 +103,32 @@ button:hover {
 .card p {
   font-size: 14px;
 }
+
+.empty-state,
+.error-message {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.empty-state {
+  background: #1a1a1a;
+  border: 1px solid #666;
+  color: #ddd;
+}
+
+.error-message {
+  background: #2a1111;
+  border: 1px solid #ff2e2e;
+  color: #ff8a8a;
+  margin-bottom: 20px;
+}
+
+.form-error {
+  margin-top: 10px;
+  color: #ff8a8a;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+}
