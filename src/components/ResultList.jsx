@@ -11,4 +11,3 @@ function ResultList({ comics }) {
 }
 
 export default ResultList;
-
