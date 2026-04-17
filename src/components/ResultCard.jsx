@@ -1,6 +1,6 @@
 function ResultCard({ comic }) {
   return (
-    <div>
+    <div className="card">
       <img src={comic.thumbnail} alt={comic.title} />
       <h3>{comic.title}</h3>
       <p>{comic.description}</p>
