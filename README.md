@@ -18,7 +18,6 @@ brak prostego i czytelnego panelu do przeglądania komiksów Marvel w jednym mie
 Główną encją projektu jest komiks/film.
 
 ## Uruchomienie projektu
-```bash
 npm install
 npm run dev
 
