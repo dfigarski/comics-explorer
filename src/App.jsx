@@ -12,7 +12,7 @@ function App() {
   const [searchText, setSearchText] = useState('');
 
   useEffect(() => {
-    console.log('Aplikacja została uruchomiona lub zaktualizowano wyszukiwanie');
+    console.log('Aplikacja działa');
   }, [searchText]);
 
   const handleSearch = (title) => {
