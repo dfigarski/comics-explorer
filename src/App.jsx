@@ -1,16 +1,15 @@
 import './styles/app.css';
-import SearchForm from './components/search';
-import ResultList from './components/resultlist';
-import { mockComics } from './data/mock';
+import SearchForm from './components/SearchForm';
+import ResultList from './components/ResultList';
+import { mockComics } from './data/mockComics';
 
 function App() {
   return (
     <div>
       <h1>Marvel Comics Explorer</h1>
       <p>Biblioteka komiksów Marvel - projekt semestralny.</p>
-
       <SearchForm />
-      <ResultList comics={mock} />
+      <ResultList comics={mockComics} />
     </div>
   );
 }
