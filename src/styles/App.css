@@ -156,3 +156,7 @@ button:hover {
   border-color: #ff2e2e;
   background-color: #1a1a1a;
 }
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
